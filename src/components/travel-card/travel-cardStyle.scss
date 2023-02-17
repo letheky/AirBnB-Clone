@@ -1,0 +1,36 @@
+.travel-card{
+    width: 100%;
+    display: flex;
+    column-gap:20px;
+    >img{
+        width:160px;
+        border-radius: 5px;
+    }
+    .content{
+        padding:12px 0;
+        .location{
+            display: flex;
+            align-items: center;
+            i{
+                color:#F55A5A;
+                margin-right: 5px;
+            }
+            >p{
+                font-size: 15px;
+                font-weight: 500;
+                margin-right: 20px;
+            }
+            >a{
+                color:#918E9B;
+            }
+        }
+        >h1{
+            letter-spacing: 0.1rem;
+            margin:7px 0 20px 0;
+            color:#2B283A;
+        }
+        >h4{
+            margin-bottom: 10px;
+        }
+    }
+}
